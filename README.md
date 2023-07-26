@@ -1,5 +1,5 @@
 # AgendaConASP.NET
-Una pequeña agenda realizada con ASP.NET
+Una pequeña agenda realizada con ASP.NET utilizando POO.
 
 La agenda te permite agregar contactos mediante un pequeño formulario,
 al agregar los contactos estos se dan guardando en una base de datos
@@ -12,8 +12,13 @@ FORMULARIO PARA AGREGAR CONTACTO
 SE AGREGA CONTACTO CON EXITO
 ![agenda2](https://github.com/williamsCTR/AgendaConASP.NET/assets/102762148/f5830e71-cfe6-4ce2-80e3-e1ab1713c618)
 
-TABRA CON LOS CONTACTOS
-![agenda3](https://github.com/williamsCTR/AgendaConASP.NET/assets/102762148/306f8789-5955-4ada-ae2e-108d6d7ddd0e)
+TABLA CON LOS CONTACTOS
+![agenda3](https://github.com/williamsCTR/AgendaConASP.NET/assets/102762148/9b113644-b74a-45d5-9ee6-2b9410090f84)
 
 SE ELIMINA CONTACTO
 ![agenda4](https://github.com/williamsCTR/AgendaConASP.NET/assets/102762148/d5160fc9-6b1c-443a-b723-fd1da6d95269)
+
+Se deja el Script se la base de datos en el proyecto para que la puedan
+crear y puedan utilizar el proyecto sin problemas. La base de datos es
+simple, tiene una columna IdContacto (int) que es autogenerada, nombre
+(varchar), numero (varchar) y email (varchar).  
