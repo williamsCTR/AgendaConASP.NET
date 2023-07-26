@@ -72,6 +72,7 @@
     <Content Include="lista.aspx" />
     <Content Include="notificacion.aspx" />
     <Content Include="Recursos\estilos.css" />
+    <Content Include="Script BD\copia.sql" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
