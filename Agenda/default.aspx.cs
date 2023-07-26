@@ -20,10 +20,10 @@ namespace Agenda
         {
 
 
-            if (txtNumero.Text=="" || txtEmail.Text =="" || txtNombre.Text=="" )
+            if (txtNombre.Text=="")
             {
                 lblAlerta.Text = "";
-                lblAlerta.Text = "Todos los campos son obligaorios";
+                lblAlerta.Text = "El Nombre es obligatorio";
                 lblAlerta.CssClass = "";
                 lblAlerta.CssClass = "h6 alert alert-danger";
                 lblAlerta.Visible = true;
